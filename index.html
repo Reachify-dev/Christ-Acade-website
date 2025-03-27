@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christ Acade Group of School</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Christ Acade Group of School</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#register">Register</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h2>About Our School</h2>
+        <p>Providing quality education and a bright future for students.</p>
+    </section>
+    
+    <section id="register">
+        <h2>Register</h2>
+        <form action="register.php" method="post">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    
+    <section id="gallery">
+        <h2>Photo Gallery</h2>
+        <div class="gallery">
+            <img src="image1.jpg" alt="School Image 1">
+            <img src="image2.jpg" alt="School Image 2">
+            <img src="image3.jpg" alt="School Image 3">
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Address: [Add School Address]</p>
+        <p>Phone: [Add Phone Number]</p>
+        <p>Email: [Add Email]</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Christ Acade Group of School. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
