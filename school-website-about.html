@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern School - About Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="logo">Modern School</a>
+        <div class="mobile-menu-toggle">☰</div>
+        <div class="navbar-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="admissions.html">Admissions</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+            <a href="login.html">Login</a>
+        </div>
+    </nav>
+
+    <section class="form-container">
+        <h1>About Modern School</h1>
+        <p>Founded in 2005, Modern School is committed to providing high-quality education that prepares students for the challenges of the 21st century. Our mission is to create a dynamic learning environment that fosters critical thinking, creativity, and personal growth.</p>
+        
+        <h2>Our Values</h2>
+        <ul>
+            <li>Academic Excellence</li>
+            <li>Holistic Development</li>
+            <li>Innovation and Technology</li>
+            <li>Inclusive Learning</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Modern School. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        document.querySelector('.mobile-menu-toggle').addEventListener('click', function() {
+            document.querySelector('.navbar-links').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
