@@ -10,6 +10,16 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
-  // Setting base to '/' ensures proper path resolution during build
+  build: {
+    rollupOptions: {
+      input: {
+        main: path.resolve(__dirname, 'index.html'),
+      },
+      // Explicitly mark problematic imports as external
+      external: [
+        // Add any problematic imports here if needed
+      ]
+    }
+  },
   base: '/',
 })
